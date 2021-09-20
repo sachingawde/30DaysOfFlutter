@@ -1,3 +1,4 @@
+import 'package:firstapp/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -17,7 +18,7 @@ class HomePage extends StatelessWidget {
               "Welcome to $days of flutter by $name"), //string interpolation- $days
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
